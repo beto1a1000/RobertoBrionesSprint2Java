@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: var(--altura_header);
+  background-color: rgb(202, 198, 198);
+}
+
+#logo {
+  height: 50px;
+}
+
+.btn {
+  height: 8vh;
+  width: 10vw;
+  font-size: 1.5vw;
+  background-color: rgb(202, 198, 198);
+  font: bold;
+  border-color: rgb(243, 2, 143);
+}
+
+.carousel-item {
+  height: 35vh;
+}
+
+.check-and-search {
+  height: 15vh;
+  font-size: 80%;
+}
+
+#lupita {
+  height: 20px;
+}
+
+.card {
+  width: 20vw;
+  height: 64vh;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(236, 234, 234);
+}
+.card img {
+  height: 20vh;
+}
+
+.card-title {
+  height: 6vh;
+}
+
+.card-text {
+  height: 20vh;
+}
+.card-body {
+  background-color: aliceblue;
+}
+
+footer img {
+  height: 8vh;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-sm {
+  border-radius: 0;
+}
+
+main {
+  min-height: 75vh;
+  background-color: rgb(243, 244, 245);
+}
+
+.form-check-label {
+  font-size: 70%;
+}
+
+.form-check-input {
+  height: 3vh;
+  width: 2vw;
+  border-color: rgb(243, 2, 143);
+}
+
+.form-control {
+  border-color: rgb(243, 2, 143);
+}
+
+.details {
+  min-height: 75vh;
+}
+.card {
+  height: auto;
+}
+#contenedorTarjetas {
+  background-color: rgb(227, 228, 228);
+  min-height: auto;
+}
+#detalles {
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.5vw;
+  background-color: rgb(202, 198, 198);
+  font: bold;
+  font-size: 100%;
+  border-color: rgb(243, 2, 143);
+}
+.btn-outline-secondary {
+  border-color: rgb(243, 2, 143);
+}
+.formulario {
+  font-size: 150%;
+}
+
+.tabla {
+  min-height: 50vh;
+  width: 80vw;
+}
+
+footer {
+  height: var(--altura_footer);
+  background-color: rgb(202, 198, 198);
+}
+
+@media (min-width: 1024px) {
+  .form-check {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card-body {
+    padding: 0.5rem;
+  }
+  .card img {
+    height: 17vh;
+  }
+  .card-title {
+    font-size: 90%;
+    height: auto;
+  }
+  .form-check {
+    font-size: 90%;
+  }
+  .card-text {
+    height: 20vh;
+    font-size: 80%;
+  }
+  .card-body2 {
+    height: auto;
+    margin: 0;
+  }
+  .card-body2 p {
+    margin: 0%;
+    font-size: 80%;
+  }
+  #detalles {
+    height: auto;
+    width: 10vw;
+    padding: 0;
+    font-size: 80%;
+  }
+  td {
+    font-size: 70%;
+  }
+  .card {
+    height: auto;
+    margin: 0.2rem;
+  }
+  .formulario {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-check-input {
+    width: 5vw;
+  }
+  .form-control {
+    height: 5vh;
+  }
+  .btn-outline-secondary {
+    width: 10vw;
+  }
+  #lupita {
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    width: 100%;
+    font-size: 110%;
+  }
+
+  .check-and-search {
+    height: 40vh;
+    flex-direction: column;
+  }
+
+  .form-check {
+    font-size: 80%;
+  }
+
+  .form-check-label {
+    padding-left: 1rem;
+  }
+  #contenedorTarjetas {
+    width: 100%;
+    margin: 0%;
+  }
+  .card {
+    height: auto;
+    width: 80vw;
+  }
+
+  .bt-card {
+    height: 6vh;
+    width: 25vw;
+  }
+
+  .card img {
+    height: 35vh;
+  }
+  .card-text {
+    font-size: 80%;
+    height: auto;
+  }
+  .card-body {
+    height: auto;
+  }
+  .card-body2 {
+    font-size: 80%;
+  }
+  #detalles {
+    width: 20vw;
+    height: 5vh;
+  }
+  td,
+  th {
+    font-size: 60%;
+  }
+  .formulario {
+    font-size: 100%;
+  }
+}
